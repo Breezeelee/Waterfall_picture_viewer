@@ -5,6 +5,7 @@
       <button class="btn" @click="querydb">Button</button>
       <button class="btn" @click="picInfoInit">Button</button>
     </div> -->
+    
     <div v-if="ifImgPreOK" class="h-full">
       <water-fall :imgs="imgs"></water-fall>
       <!-- <water-fall /> -->
